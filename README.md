@@ -11,8 +11,11 @@ im using the Driver provided by ardafruit.
 Please Connect:
 PCA9685 -> PI PICO (W)
  GND -> GND
+ 
  SDA -> GP21
+ 
  SCL -> GP20
+ 
  VCC -> 3V3
  
 A RED LED should light up on the servo board

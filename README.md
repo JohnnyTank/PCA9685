@@ -18,4 +18,4 @@ PCA9685 -> PI PICO (W)
  
  VCC -> 3V3
  
-A RED LED should light up on the servo board
+A RED LED should light up on the servo board.

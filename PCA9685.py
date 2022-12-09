@@ -18,8 +18,8 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
-from __future__ import division
-import logging
+# from __future__ import division
+# import logging
 import time
 import math
 
@@ -49,7 +49,7 @@ INVRT              = 0x10
 OUTDRV             = 0x04
 
 
-logger = logging.getLogger(__name__)
+# logger = logging.getLogger(__name__)
 
 
 def software_reset(i2c=None, **kwargs):

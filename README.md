@@ -7,7 +7,7 @@
 It works with the I2C protocol.
 If you don't solder any bridges on the module the basic adress is 0x40.
 
-im using the Driver provided by [adafruit](https://github.com/adafruit/micropython-adafruit-pca9685).
+im using the Driver provided by [Kevin McAleer](https://github.com/kevinmcaleer/pca9685_for_pico).
 
 Please Connect:
 
@@ -15,10 +15,13 @@ PCA9685 -> PI PICO (W)
 
 GND -> GND
  
- * SDA -> GP21
+ * SDA -> GP20
  
- * SCL -> GP20
+ * SCL -> GP21
  
  * VCC -> 3V3
  
 A RED LED should light up on the servo board.
+
+You need a Powersource that is strong enough for the board.
+The Voltage between anny black and anny red Pin on the servoboard should be about 5V.

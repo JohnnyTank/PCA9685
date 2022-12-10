@@ -25,3 +25,7 @@ A RED LED should light up on the servo board.
 
 You need a Powersource that is strong enough for the board.
 The Voltage between anny black and anny red Pin on the servoboard should be about 5V.
+
+I Am using an Pico-expansionboard by keyestudio which has a powerconnector for up to 12V - so you can get the 5V Suply for the Servos from the Board.
+
+Don't use the Pico as Powersupply for the servos - it will get damaged!
